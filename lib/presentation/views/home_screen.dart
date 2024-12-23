@@ -5,8 +5,9 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
-  Widget build(BuildContext context,) {
-
+  Widget build(
+    BuildContext context,
+  ) {
     return Scaffold(
         backgroundColor: Colors.white,
         bottomNavigationBar: BottomNavigationBar(
@@ -27,13 +28,10 @@ class HomeScreen extends StatelessWidget {
             const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
+                Text('Welcome to Web3'),
               ],
             ),
           ],
         ));
-
   }
 }
-
-

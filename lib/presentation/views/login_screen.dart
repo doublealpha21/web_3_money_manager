@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:web_3_wallet/core/router/route_name.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

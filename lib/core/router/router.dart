@@ -1,10 +1,10 @@
 import 'package:go_router/go_router.dart';
-import 'package:web3_money_manager/core/router/route_name.dart';
-import 'package:web3_money_manager/presentation/views/home_screen.dart';
-import 'package:web3_money_manager/presentation/views/investment_screen.dart';
-import 'package:web3_money_manager/presentation/views/login_screen.dart';
-import 'package:web3_money_manager/presentation/views/market_screen.dart';
-import 'package:web3_money_manager/presentation/views/transaction_screen.dart';
+import 'package:web_3_wallet/core/router/route_name.dart';
+import 'package:web_3_wallet/presentation/views/home_screen.dart';
+import 'package:web_3_wallet/presentation/views/investment_screen.dart';
+import 'package:web_3_wallet/presentation/views/login_screen.dart';
+import 'package:web_3_wallet/presentation/views/market_screen.dart';
+import 'package:web_3_wallet/presentation/views/transaction_screen.dart';
 
 final router = GoRouter(
   routes: [
@@ -30,6 +30,5 @@ final router = GoRouter(
       path: 'transactions',
       builder: (context, state) => const TransactionScreen(),
     ),
-
   ],
 );
